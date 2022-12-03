@@ -30,6 +30,7 @@
     }
     .nav_menu{
         display: flex;
+        color: rgb(187, 187, 187);
     }
 
 
@@ -105,6 +106,12 @@
         width: auto;
         max-width: 1200px;
         padding-left: 0px;
+    }
+    .bx-wrapper{ 
+        height: 200px !important;
+    }
+    .bx-viewport{
+        height: 190px !important;
     }
 
 
