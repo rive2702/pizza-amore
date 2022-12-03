@@ -307,6 +307,10 @@ a:hover{
     width: 500px;*/
     background-color: #9dd3ff74;
 }
+.condado {
+    font-size: 25px;
+    font-weight: bold;
+}
 .ubi_item{
     padding: 40px;
     margin-left: 10px;
