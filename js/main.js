@@ -58,13 +58,14 @@ $(document).ready(function(){
       
     $('.bxslider1').bxSlider({
         mode: 'fade',
-        captions: true,
+        captions: false,
         auto: true,
         pause: 3000,
         randomStart: true,
         slideWidth: 400,
         responsive: true,
-        autoHover: true
+        autoHover: true,
+        touchEnabled: true
     });
 
     $('.bxslider').bxSlider({
@@ -76,6 +77,7 @@ $(document).ready(function(){
         slideWidth: 1000,
         responsive: true,
         autoHover: true,
+        touchEnabled: true
     });
 
 
