@@ -19,8 +19,10 @@ a {
     text-decoration: none;
     color: #f7f7f0;
 }
-a:hover{
+a:hover,
+.nav_title span:hover{
     color: #39A8E0;
+    transition: all 0.3s;
 }
 .container{
     width: 100%;
@@ -97,8 +99,9 @@ a:hover{
     /*background: linear-gradient(to bottom, red, black);*/
     position: relative;
 }
-.homeBG{
+#particles-js{
     background-image: url(../img/home_bg.webp);
+
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -111,6 +114,9 @@ a:hover{
     height: 200px;
     transition: filter 3s;
     border-radius: 99px;
+}
+.home_profile:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
 }
 /*.home_profile style{
     visibility: visible;
@@ -143,6 +149,12 @@ a:hover{
     line-height: 40px;
 }
 
+.about h2:hover,
+.menu h2:hover,
+.gallery h2:hover,
+.ubi1 h2:hover{
+    text-shadow: 0.8px 0.8px;
+} 
 
 .menu{
     padding-top: 60px;
@@ -152,7 +164,7 @@ a:hover{
 .menu h2{ 
     text-align: center;
     font-size: 40px;
-    color: rgba(162, 33, 33, 0.727);
+    color: rgba(181, 53, 53, 0.771);
 }
 .section_gridMenu{
     display: grid;
